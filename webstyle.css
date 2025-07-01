@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Mitr:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playpen+Sans+Thai:wght@100..800&display=swap');
+
+article {
+    padding-left: 20px;
+    background-image: linear-gradient(#f0f0f0, rgb(109, 175, 196));
+    min-height: 600px;
+    font-family: "Mitr", sans-serif;
+    font-style: 20px;
+    font-weight: 200;
+
+}
+
+footer {
+    background-color: rgb(151, 151, 151);
+    color: #202020;
+    padding: 20px;
+    font-family: "Mitr", sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 20px;
+    overflow: hidden;
+    background-color: rgb(39, 92, 52);
+    color: #ffffff;
+    display: flex;
+    column-gap: 20px;
+}
+
+nav ul li a {
+    /*color: aliceblue;*/
+    text-decoration: none;
+    /*padding: 10px 20px;*/
+    font-family: "Mitr", sans-serif;
+    font-size: x-large;
+
+
+}
+
+nav ul li a:link {
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+.highlight {
+    text-align: center;
+    
+}
+
+.highlight h1 {
+    font-size: 56px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #000;
+
+}
+
+.highlight p {
+    font-size: 24px;
+    color: #000; 
+
+}
+.highlight input {
+    font-size: 20px;
+    color: #000;
+
+}
+
+.codeXame{
+    background-color: rgb(50, 143, 70);
+    margin: 20px 0px;
+    width: 90%;
+    padding: 20px;
+}
+pre {
+    background-color: #f4f4f4;
+    padding: 0px 20px;
+    border-radius: 5px;
+    overflow-x: auto;
+    border-left: 6px solid #000000;
+}
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: 2px solid #ffffff;
+}
+thead {
+    background-color: #202020;
+    color: #ffffff;
+    text-align: center;
+}
+tbody tr:nth-child(odd) {
+    background-color: rgb(136, 206, 253);
+}
+tbody td {
+    padding-left: 20px;
+}
+.note {
+    background-color: #308cb1;
+    padding: 20px;
+    margin: 10px 0;
+}
