@@ -105,3 +105,22 @@ tbody td {
     padding: 20px;
     margin: 10px 0;
 }
+hr {
+    border: 1px solid #ffffff;
+    /*height: 2px;
+    background-color: 255,255,255;*/
+    margin: 20px 0;
+    width: 95%
+}
+.menu a{
+    text-decoration: none;
+    color: #207925;
+    font-family: "Mitr", sans-serif;
+    font-weight: 800;
+    font-size: larger;
+}
+/*.manu a :hover{
+    color: #202020;
+    font-weight: bolder;
+    transition: color 0.3 ease;
+}*/
