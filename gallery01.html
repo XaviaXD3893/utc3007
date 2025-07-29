@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Galler</title>
+     <style>
+        body {
+            background-color: rgb(196, 196, 196);
+            
+        }
+        .container {
+            width: 70%;
+            min-height: 60vh;
+            /*border: 2xp solid #3700ff;*/
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            
+        }
+        .container img {
+            box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3);
+            width: 280px;
+            border: 2px solid #000000;
+
+        }
+        .container img:hover {
+            transform: scale(1.5);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <img src="img1/22m.jpg" alt="">
+    <img src="img1/23m.jpg" alt="">
+    <img src="img1/24m.jpg" alt="">   
+    <img src="img1/27m.jpg" alt="">
+    <img src="img1/28m.jpg" alt="">
+    <img src="img1/29m.jpg" alt="">
+    <img src="img1/30m.jpg" alt="">
+    <img src="img1/32m.jpg" alt="">
+    <img src="img1/33m.jpg" alt="">
+   </div>
+</body>
+</html>

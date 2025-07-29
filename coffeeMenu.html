@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffeeMenu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mitr:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playpen+Sans+Thai:wght@100..800&display=swap"
+        rel="stylesheet">
+    <style>
+        .container {
+            width: 80%;
+            min-height: 90vh;
+            margin: 30px auto;
+            padding: 10px;
+            display: flex;
+            /*flex-wrap: wrap;
+            justify-content: space-evenly;*/
+            background-color: #fdfbed;
+            flex-direction: column;
+        }
+
+        .head {
+            text-align: center
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            flex: 3;
+            align-items: first baseline;
+            justify-content: center;
+        }
+
+        .footer {
+            background-color: #026c20;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+            text-transform: uppercase;
+            font-size: larger;
+        }
+
+        .menuhead {
+            font-family: "Mitr", sans-serif;
+            font-size: larger;
+            color: #026c20;
+            font-weight: 800;
+            border: 3px solid #026c20;
+            border-radius: 50px 50px 50px 50px;
+            padding: 0px 10px;
+            width: 60%;
+            background-color: #fdfbed;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: uppercase;
+            max-height: 30px;
+            margin: 0px auto;
+        }
+
+        .menuList {
+            font-family: "Mitr", sans-serif;
+            font-size: larger;
+            color: #026c20;
+            width: 50%;
+            padding: 10px;
+            /* border: 2px solid #026c20; */
+            margin-left: 50px;
+        }
+
+        .menuPrice {
+            font-family: "Mitr", sans-serif;
+            font-size: larger;
+            color: #026c20;
+            padding: 10px;
+            margin-right: 40px;
+            width: 20%;
+            /* border: 2px solid #026c20; */
+        }
+
+        .subContent {
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+
+            /* border: 2px solid #026c20; */
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <img width="35%" src="img1/coffee.png" alt="">
+        </div>
+        <div class="content">
+            <div class="subContent">
+
+                <div class="menuhead">
+                    Classic Coffee
+                </div>
+
+                <div class="menuList">
+                    <ul>
+                        <li>Americano</li>
+                        <li>Cappuccino</li>
+                        <li>Espresso</li>
+                        <li>Flat White</li>
+                        <li>Latte</li>
+                        <li>Macchiato</li>
+                        <li>Mocha</li>
+                    </ul>
+                </div>
+                <div class="menuPrice">
+                    <ul style="list-style-type: none;">
+                        <li>6$</li>
+                        <li>5$</li>
+                        <li>4$</li>
+                        <li>7$</li>
+                        <li>6$</li>
+                        <li>6$</li>
+                        <li>7$</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="subContent">
+
+                <div class="menuhead">
+                    Specialty Coffee
+                </div>
+
+                <div class="menuList">
+                    <ul>
+                        <li>Affogato</li>
+                        <li>Caramel Latte</li>
+                        <li>Caramel Macchiato</li>
+                        <li>Hazelnut Mocha</li>
+                        <li>Matcha Espresso</li>
+                        <li>Spanish Latte</li>
+                        <li>Vanilla Cold Brew</li>
+                    </ul>
+                </div>
+                <div class="menuPrice">
+                    <ul style="list-style-type: none;">
+                        <li>5$</li>
+                        <li>6$</li>
+                        <li>6$</li>
+                        <li>6$</li>
+                        <li>5$</li>
+                        <li>5$</li>
+                        <li>7$</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="subContent">
+
+                <div class="menuhead">
+                    Other Drinks
+                </div>
+
+                <div class="menuList">
+                    <ul>
+                        <li>Chai Tea Latte</li>
+                        <li>Iced Chocolate</li>
+                        <li>Lemon Iced Tea</li>
+                        <li>Matcha Latte</li>
+                        <li>Orange Sparkling</li>
+                        <li>Taro Milk Tea</li>
+                        <li>Strawberry Milkshake</li>
+                    </ul>
+                </div>
+                <div class="menuPrice">
+                    <ul style="list-style-type: none;">
+                        <li>6$</li>
+                        <li>5$</li>
+                        <li>4$</li>
+                        <li>7$</li>
+                        <li>6$</li>
+                        <li>6$</li>
+                        <li>7$</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="subContent">
+
+                <div class="menuhead">
+                    Coffee
+                </div>
+                <img width="90%" src="img1/coffee1.png" alt="">
+
+            </div>
+            <div class="footer">
+                123 Anywhere St., Any City, ST 12345
+            </div>
+        </div>
+</body>
+
+</html>
